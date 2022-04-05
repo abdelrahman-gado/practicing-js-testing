@@ -1,5 +1,19 @@
 import calculator from "../scripts/calculator";
 
+
+test('inputs to the function must be only numbers', () => {
+    expect(calculator.add(1, "2")).toBe(null);
+    expect(calculator.add("1", "2")).toBe(null);
+    expect(calculator.substract("hello", "2")).toBe(null);
+    expect(calculator.substract(true, false)).toBe(null);
+    expect(calculator.divide({}, [1, 2])).toBe(null);
+    expect(calculator.divide([{}], [1, 2])).toBe(null);
+    expect(calculator.multiply({ 1: "ali" }, { 2: "mohammed" }));
+    expect(calculator.multiply()).toBe(null);
+})
+
+
+
 test('add two numbers', () => {
     expect(calculator.add(2, 4)).toBe(6);
     expect(calculator.add(30, 40)).toEqual(70);
