@@ -1,0 +1,26 @@
+{
+  "name": "practicing-js-testing",
+  "version": "1.0.0",
+  "description": "practicing testing in javascript using jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watch *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdelrahman-gado/practicing-js-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdelrahman-gado/practicing-js-testing/issues"
+  },
+  "homepage": "https://github.com/abdelrahman-gado/practicing-js-testing#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "jest": "^27.5.1"
+  }
+}
